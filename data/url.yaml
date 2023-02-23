@@ -1,0 +1,51 @@
+
+
+base_url_dev: 'https://fg-api-dev.yonwan.cn'
+base_url_test: 'https://fg-api-test.yonwan.cn'
+
+
+# 设备模块-设备列表
+cabinet_list: '/backendapi/cabinet/get-cabinet-list.cgi'
+cabinet_status_list: '/backendapi/cabinet/get-cabinet-status-list.cgi'
+device_status_list: '/backendapi/cabinet/get-device-status-list.cgi'
+change_cabinet_status: '/backendapi/cabinet/change-cabinet-status.cgi'
+export_cabinet: '/backendapi/cabinet/export-detail.cgi'
+cabinet_details: '/backendapi/cabinet/cabinet-details.cgi'
+update_is_lock: '/backendapi/cabinet/update-is-lock.cgi'
+
+# 设备模块-我的设备
+my_cabinet_list: '/backendapi/cabinet/get-my-cabinet-list.cgi'
+place_enum_list: '/backendapi/cabinet/get-place-enum-list.cgi'
+find_point_position: '/backendapi/cabinet/find-point-position.cgi'
+improve_cabinet_info: '/backendapi/cabinet/improve-cabinet-information.cgi'
+change_voice: '/backendapi/cabinet/change-voice.cgi'
+cabinet_reboot: '/backendapi/cabinet/cabinet-reboot.cgi'
+
+# 设备模块-网点
+position_list: '/backendapi/position/position-list.cgi'
+export_position: '/backendapi/position/export-position.cgi'
+admin_position_list: '/backendapi/position/admin-position-list.cgi'
+add_point_position: '/backendapi/position/add-point-position.cgi'
+export_admin_position: '/backendapi/position/export-admin-position.cgi'
+
+
+# 设备模块-可分配设备
+point_position_list: '/backendapi/cabinet/get-point-position-list.cgi'
+agent_point_position_list: '/backendapi/cabinet/get-agent-point-position-list.cgi'
+cabinet_type_list: '/backendapi/cabinet/get-cabinet-type-list.cgi'
+assignable_list: '/backendapi/cabinet/cabinetOpt/assignable-list.cgi'
+assignable_pre_submit: '/backendapi/cabinet/cabinetOpt/assignable-pre-submit.cgi'
+assignable_submit: '/backendapi/cabinet/cabinetOpt/assignable-submit.cgi'
+
+
+# 设备模块-支付配置
+enums: '/gloriosa_superba/common/enums'
+cabinet_config: '/gloriosa_superba/cabinet/extra/config/page'
+change_payType: '/gloriosa_superba/cabinet/extra/config/change/payType'
+
+# 设备模块-多次购物
+positon_config: '/gloriosa_superba/position/extra/config/page'
+change_open_times: '/gloriosa_superba/position/extra/config/change/open/times'
+
+# 设备模块-边柜管理
+side_cabinet_list: '/backendapi/cabinet/side/get-side-cabinet-list.cgi'
